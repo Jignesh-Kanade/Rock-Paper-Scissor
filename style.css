@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.gameTitle {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(20, 16, 30);
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+p {
+  font-size: 35px;
+}
+
+.choise {
+  margin-top: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.choises {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.choise:hover {
+  background-color: black;
+}
+
+.score-board {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.comp-score {
+  margin-left: 30px;
+}
+
+.msg-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 60px;
+}
+
+#msg {
+  font-size: 30px;
+  background-color: rgb(20, 16, 30);
+  color: white;
+  display: inline;
+  padding: 10px;
+  border-radius: 7px;
+}
